@@ -1,0 +1,39 @@
+.works-page {
+    position: relative;
+    left: -5%; // ESSENTIAL FOR COLOR CHANGES background
+    width: 110%;
+    max-height: 90%;
+    background-color: white;
+    padding-top: 20px; 
+    padding-bottom: 40px; 
+
+    h1 {
+        color: #3498DB;
+        font-family: 'Poppins', sans-serif;
+        text-align: center; 
+        margin-bottom: 20px; 
+        font-family: 'Lexend Deca', sans-serif;
+    }
+
+    .steps-container {
+        display: flex;
+        justify-content: space-between; 
+        align-items: flex-start; 
+        width: 90%;
+        margin: 0 auto; 
+    }
+
+    .left-one,
+    .middle-one,
+    .right-one {
+        width: 30%;
+        color: #00004d;;
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 1.2em;
+        
+        img{
+            width: 50%; 
+        }
+    }
+
+}

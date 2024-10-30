@@ -1,0 +1,15 @@
+.page{
+    display: block;
+    flex-direction: column; /* Stack the sections vertically */
+    align-items: stretch;   /* Ensure sections take up full width */
+    min-height: 100vh;  
+
+    h1 {
+        color: #3498DB;
+        font-family: 'Poppins', sans-serif;
+        text-align: center; 
+        margin-bottom: 20px; 
+        font-family: 'Lexend Deca', sans-serif;
+        margin: auto;
+    }
+}

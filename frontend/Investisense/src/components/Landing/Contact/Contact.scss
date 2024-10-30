@@ -1,0 +1,92 @@
+.contact-page{
+    position: absolute;
+    left: 0%; // ESSENTIAL FOR COLOR CHANGES background
+    width: 100%;
+    min-height: 730px;
+    background-color: #3498DB;
+    padding-top: 40px; 
+
+    .contact-info{
+
+        h1 {
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            text-align: center; 
+            margin-bottom: 20px; 
+            font-family: 'Lexend Deca', sans-serif;
+            margin: auto;
+        }
+
+        img{
+            width:40%;
+            // Make it on the left side
+            position: absolute;
+            left: 7%;
+            margin-top: 10px;
+
+        }
+
+        .contact-form{
+            display: absolute;
+            // make it on the right side
+            position: absolute;
+            right: 7%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            width: 32%;
+            padding: 20px;
+            background-color: #F1FFFF;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+
+
+            input{
+                width: 100%;
+                padding: 10px;
+                margin: 10px 0;
+                border: 2px solid #3498DB;
+                border-radius: 5px;
+                background-color: #F1FFFF;
+                color: black;
+                font-size: 1.2em;
+            }
+
+            textarea{
+                width: 100%;
+                padding: 10px;
+                margin: 10px 0;
+                border: 2px solid #3498DB;
+                border-radius: 5px;
+                background-color: #F1FFFF;
+                color: black;
+                font-size: 1.2em;
+                // make the text area bigger without losing the width
+                resize: none;
+                height: 100px;
+
+
+            }
+
+            button{
+                background-color: #3498DB;
+                color: white;
+                border-radius: 30px;
+                padding: 10px 20px;
+                cursor: pointer;  
+                font-family: "Lexend Deca", sans-serif;
+                font-optical-sizing: auto;
+                &:hover{
+                    background-color: black;
+                    color: white;
+                    transition: 0.25s;
+                    border: 1px solid transparent;
+                }
+            }
+
+
+        }
+    }   
+}

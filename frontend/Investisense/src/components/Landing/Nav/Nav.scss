@@ -1,0 +1,100 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.navi {
+    background-color: #F1FFFF;
+    color: #F5F5F5;
+    height: 5%; 
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: center;  
+    align-items: center;  
+    padding: 20px 0;
+    transition: 0.5s;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    .navi__logo {
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        
+
+        img{
+            width: 300px;
+            }
+
+        
+        .navi__left {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            margin-left: auto;
+            margin-right: 30px;
+            
+
+
+            .navi__left__items {
+                display: flex;
+                gap: 30px;
+                justify-content: center;
+                align-items: center;
+                
+                
+                .navi__left__items__item{
+                    background-color: transparent;
+                    color: #3498DB;
+                    border-radius: 5px;
+                    padding: 5px 10px;
+                    cursor: pointer;
+                    font-family: "Lexend Deca", sans-serif;
+                    font-optical-sizing: auto;
+                    &:hover{
+                        background-color: transparent;
+                        color: black;
+                        transition: 0.25s;
+                    }
+                }
+
+                .navi__right__login{
+                    background-color: transparent;
+                    color: #3498DB;
+                    border-radius: 5px;
+                    padding: 5px 10px;
+                    cursor: pointer;
+                    font-family: "Lexend Deca", sans-serif;
+                    font-optical-sizing: auto;
+                    &:hover{
+                        background-color: transparent;
+                        color: black;
+                        transition: 0.25s;
+                    }
+                }
+    
+                .navi__right__signup{
+                    background-color: #3498DB;
+                    color: white;
+                    border-radius: 30px;
+                    padding: 10px 20px;
+                    cursor: pointer;  
+                    font-family: "Lexend Deca", sans-serif;
+                    font-optical-sizing: auto;
+                    &:hover{
+                        background-color: black;
+                        color: white;
+                        transition: 0.25s;
+                    }
+                }
+            }
+        }
+
+    }
+}

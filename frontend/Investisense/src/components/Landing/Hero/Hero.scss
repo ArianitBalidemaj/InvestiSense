@@ -1,0 +1,66 @@
+.home-page {
+    .text-box {
+        position: absolute;
+        left: 5%;
+        top: 50%;
+        transform: (translateY(-50%));
+        width: 40%;
+        max-height: 90%;
+        text-align: left;
+    }
+
+        img{
+            width: 50%;
+            //move the image to the right   
+            transform: translateY(0%);
+            margin-left: 50%;
+
+            
+        }
+
+        h1{
+            color: #3498DB;
+            font-size: 80px;
+            margin: 0;
+            font-family: "Lexend Deca", sans-serif;
+            font-weight: 700;
+            letter-spacing: -4px;
+            text-align: left;
+
+            .break1{
+                color: #00004d;
+            }
+        }
+
+        p{
+            color: #00004d;
+            font-size: 20px;
+            margin: 0;
+            font-family: "Lexend Deca", sans-serif;
+            font-weight: 400;
+            letter-spacing: -1px;
+            text-align: left;
+            margin-top:10px;
+        }
+
+        .btn-sign{
+            background-color: #3498DB;
+            margin-top:30px;
+            border: transparent;
+            color: white;
+            border-radius: 30px;
+            padding: 10px 50px;
+            cursor: pointer;  
+            font-family: "Lexend Deca", sans-serif;
+            font-optical-sizing: auto;
+            
+
+            &:hover{
+                background-color: black;
+                color: white;
+                transition: 0.25s;
+            }
+    }
+
+
+}
