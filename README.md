@@ -38,5 +38,6 @@ InvestiSense is an application designed for new investors to explore stocks, tra
    ```
    
 4. Run the app:
-	•	Start the backend server (Flask)
-	•	Run the frontend (React + Vite)
+
+   - Start the backend server (Flask)
+   - Run the frontend (React + Vite)
