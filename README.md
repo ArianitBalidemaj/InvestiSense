@@ -27,7 +27,7 @@ InvestiSense is an application designed for new investors to explore stocks, tra
    git clone https://github.com/yourusername/InvestiSense.git
    ```
    
-2.	Navigate to the project directory:
+2. Navigate to the project directory:
    ```bash
    cd InvestiSense
    ```
@@ -37,6 +37,6 @@ InvestiSense is an application designed for new investors to explore stocks, tra
    cd frontend
    ```
    
-4.	Run the app:
+4. Run the app:
 	•	Start the backend server (Flask)
 	•	Run the frontend (React + Vite)
