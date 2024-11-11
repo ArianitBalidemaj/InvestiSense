@@ -40,6 +40,7 @@ def save_sentiment_data(posts, news):
     with open('./backend/data/reddit_posts_sentiment.json', 'w') as f:
         json.dump(posts, f, indent=4)
     
+
     with open('./backend/data/news_articles_sentiment.json', 'w') as f:
         json.dump(news, f, indent=4)
 
